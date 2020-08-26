@@ -1,0 +1,29 @@
+{
+  "name": "videobox",
+  "version": "1.0.0",
+  "description": "Fictitious Online Video Rentals Site created with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgardoPinto-Escalier/videobox.git"
+  },
+  "keywords": [
+    "Video",
+    "Movie",
+    "Rentals",
+    "Online"
+  ],
+  "author": "Edgardo Pinto-Escalier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgardoPinto-Escalier/videobox/issues"
+  },
+  "homepage": "https://github.com/EdgardoPinto-Escalier/videobox#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.2.1"
+  }
+}
