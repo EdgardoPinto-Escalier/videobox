@@ -54,6 +54,7 @@ router.get('/:id', async (req, res) => {
   res.send(genre);
 });
 
+// This function validates
 function validateGenre(genre) {
   const schema = Joi.object({
     name: Joi.string().min(3).required(),
